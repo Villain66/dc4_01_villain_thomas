@@ -1,4 +1,4 @@
-function alpha_maj(alpha_min) {
+function ft_print_alphabet(alpha_min) {
 var alphabet = alpha_min.split('');
 var alphabet_majuscule = [];
 for (var letter of alphabet) {
@@ -8,5 +8,5 @@ alphabet_majuscule.push(majuscule);
 return alphabet_majuscule;
 }
 var alpha_min = 'abcdefghijklmnopqrstuvwxyz';
-var alpha_maj = alpha_maj(alpha_min);
-console.log(alpha_maj);
+var ft_print_alphabet = ft_print_alphabet(alpha_min);
+console.log(ft_print_alphabet);
